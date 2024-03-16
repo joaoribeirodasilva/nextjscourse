@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import PropertyCard from '@/components/PropertyCard';
-import { fetchProperties } from '@/utils/request';
+import fetchProperties from '@/utils/fetchProperties';
 
 const PropertiesPage = async() => {
 
